@@ -22,6 +22,17 @@ a {
     background-position: center;
 }
 
+.social-image{
+  border: 5px solid #FFFFFF !important;
+  border-radius: 50%;
+  
+}
+.social-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 203px;
+}
 .container-1{
   background-color: #0B0058;
   padding-top: 10px;
@@ -32,7 +43,7 @@ a {
   width: 500px;
   height: 40px;
   margin:auto;
-  border: 1px solid red;
+  border: 1px solid #FFFFFF;
   border-radius: 8px 8px;
   margin-top: 20px;
 }
@@ -101,11 +112,25 @@ a.btn-1 {
 /* name section */
 
 .name{
-  font-family: Spartan;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 38px;
   font-weight: 800;
   line-height: 43px;
   letter-spacing: 0.2em;
   text-align: left;
+ color: #E5E5E5;
   
 }
+.footer-section{
+  background-color: #000C24;
+
+}
+.sign{
+  justify-self: center;
+}
+.footer-social-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
