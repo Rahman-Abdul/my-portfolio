@@ -5,11 +5,11 @@ import Navbar from "./Nav"
 
 const Layout = ({children}: any) => {
   return (
-    <main  className="layout">
+    <section  className="layout">
     <Navbar/>
     {children} 
     <Footer/>
-    </main>
+    </section>
   )
 }
 
