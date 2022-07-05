@@ -6,6 +6,7 @@ import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
@@ -20,13 +21,14 @@ const Home: NextPage = () => {
         <div>
           <div className='name-section'>
             <h1 className='name'>ABDULRAHMAN AHMED RASHEED</h1>
-            <h3 className='title'>Engineer + Frontend Developer</h3>
+            <h3 className='job-title'>Engineer + Frontend Developer</h3>
           </div>
           <div className='social-section'>
-          <Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/>
-        <Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/>
-      <Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/>
-      <Image className='social-image' src={instagram} alt="Picture of the author" width={36.03} height={36.03}/>
+            
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={instagram} alt="Picture of the author" width={36.03} height={36.03}/></a>
           </div>
         </div>
       </main>

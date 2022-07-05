@@ -115,6 +115,9 @@ a.btn-1 {
   color: #0B0058;
 }
 
+.job-title{
+  color: #00FFFF!important;
+}
 /* name section */
 
 .name{
@@ -155,6 +158,9 @@ a.btn-1 {
   border-bottom: 2px solid #333;
 
 
+}
+.about-p{
+  color: #00FFFF!important;
 }
 
 .circle-parent{
@@ -226,8 +232,7 @@ ol, ul {
 
 .skill-set__item {
 /*     margin-top: 6.4rem; */
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -252,16 +257,12 @@ ol, ul {
 }
 .skill-set__meta {
   margin-bottom: 0.8rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .skill-set__name {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
   -ms-flex-align: end;
@@ -269,7 +270,7 @@ ol, ul {
 }
 .small-title {
   font-size: 10px;
-  color: #072142;
+  color: #00FFFF;
   letter-spacing: 0.2em;
   line-height: 1.2;
   font-family: "futura_de";
@@ -285,8 +286,8 @@ ol, ul {
   color: #ff4d5a;
 }
 .small-title {
-  font-size: 10px;
-  color: #072142;
+  font-size: 20px;
+  color: #00FFFF;
   letter-spacing: 0.2em;
   line-height: 1.2;
   font-family: "futura_de";
@@ -310,10 +311,10 @@ skill-set__ratio {
   animation: ratio90 1.5s forwards;
 }
 .skill-set__bar:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(42%, #8c2b7a), to(#ff4d5a));
-  background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 42%, #ff4d5a);
-  background-image: -o-linear-gradient(left, #072142, #8c2b7a 42%, #ff4d5a);
-  background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+  background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(42%, #8c2b7a), to(#00FFFF));
+  background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 42%, #00FFFF);
+  background-image: -o-linear-gradient(left, #072142, #8c2b7a 42%, #00FFFF);
+  background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #00FFFF);
 }
 
 .skill-set__bar:after {
