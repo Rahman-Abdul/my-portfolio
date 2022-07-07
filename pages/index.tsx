@@ -6,7 +6,7 @@ import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
-import Link from 'next/link'
+
 
 const Home: NextPage = () => {
   return (
