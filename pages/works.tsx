@@ -5,7 +5,7 @@ import React from 'react';
 const Works: any = () => {
   return(
 <main>
-    <>how It works</>
+    <h1>how It works on only me understand</h1>
 </main>
   ) 
 }
