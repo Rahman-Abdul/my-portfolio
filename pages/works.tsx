@@ -5,7 +5,7 @@ import React from 'react';
 const Works: any = () => {
   return(
 <main>
-    <h1></h1>
+    <h1 className=''></h1>
 </main>
   ) 
 }
