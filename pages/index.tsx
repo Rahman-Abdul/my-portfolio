@@ -8,6 +8,7 @@ import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
 
 
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -24,7 +25,7 @@ const Home: NextPage = () => {
             <h3 className='job-title'>Engineer + Frontend Developer</h3>
           </div>
           <div className='social-section'>
-            
+          
           <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/></a>
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
         </div>
       </main>
     </div>
+    
   )
 }
 

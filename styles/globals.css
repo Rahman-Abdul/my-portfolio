@@ -328,3 +328,12 @@ skill-set__ratio {
   border-radius: 10px;
   width: 80%;
 }
+
+
+/* Mobile responsive */
+
+@media screen and (max-width: 480px) {
+  .name {
+    font-size: 20px;
+  }
+}
