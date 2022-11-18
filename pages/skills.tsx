@@ -7,8 +7,6 @@ import html from '../assets/html.png'
 const Skills: any = () => {
   return(
 <div className="">
-
-
          </div>
   )
 }
