@@ -25,10 +25,9 @@ const Home: NextPage = () => {
             <h3 className='job-title'>SOFTWARE ENGINEER</h3>
           </div>
           <div className='social-section'>
-
-          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://www.linkedin.com/in/abdulrahman-ahmed-538a05178/'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={instagram} alt="Picture of the author" width={36.03} height={36.03}/></a>
           </div>
         </div>
