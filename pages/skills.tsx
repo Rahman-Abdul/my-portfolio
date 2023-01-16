@@ -11,7 +11,7 @@ const Skills: any = () => {
            <div className="content content--mlarge skill-set__flex">
              <ul className="skill-set__list">
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/ai.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html}  width={800}
         height={500} alt="Illustrator"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -25,7 +25,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/sketch.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html}  width={800}
         height={500} alt="Sketch"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -39,7 +39,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/abstract.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html}  width={800}
         height={500} alt="Abstract"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -53,7 +53,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/ps.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html} width={800}
         height={500} alt="Photoshop"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -67,7 +67,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/flinto.png"  width={800}
+                 <div className="skill-set__icon"><Image src={html}  width={800}
         height={500} alt="Flinto for mac"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -83,7 +83,7 @@ const Skills: any = () => {
              </ul>
              <ul className="skill-set__list">
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/html.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html}  width={800}
         height={500} alt="HTML/CSS"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -97,7 +97,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/pug.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html}  width={800}
         height={500} alt="Pug"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -111,7 +111,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/wp.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html}  width={800}
         height={500} alt="Wordpress"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -125,7 +125,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/sass.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html}  width={800}
         height={500} alt="Sass"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
@@ -139,7 +139,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="http://www.webcoderskull.com/img/icon/js.svg"  width={800}
+                 <div className="skill-set__icon"><Image src={html} width={800}
         height={500} alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
