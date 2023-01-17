@@ -96,7 +96,7 @@ const Skills: any = () => {
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
-                       <h4 className="small-title small-title--skill">Pug</h4>
+                       <h4 className="small-title small-title--skill">NEXT JS</h4>
                        <p className="skill-set__year">3MONTHS</p>
                      </div>
                      <p className="small-title small-title--skill">80<span className="skill-set__ratio">%</span></p>
@@ -109,7 +109,7 @@ const Skills: any = () => {
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
-                       <h4 className="small-title small-title--skill">Wordpress</h4>
+                       <h4 className="small-title small-title--skill">JAVA</h4>
                        <p className="skill-set__year">1YEARS</p>
                      </div>
                      <p className="small-title small-title--skill">70<span className="skill-set__ratio">%</span></p>
