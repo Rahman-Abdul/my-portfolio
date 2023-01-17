@@ -55,7 +55,7 @@ const Skills: any = () => {
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
-                       <h4 className="small-title small-title--skill">Photoshop</h4>
+                       <h4 className="small-title small-title--skill">React</h4>
                        <p className="skill-set__year">3YEARS</p>
                      </div>
                      <p className="small-title small-title--skill">70<span className="skill-set__ratio">%</span></p>
@@ -68,7 +68,7 @@ const Skills: any = () => {
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
-                       <h4 className="small-title small-title--skill">Flinto for mac</h4>
+                       <h4 className="small-title small-title--skill">Angular</h4>
                        <p className="skill-set__year">2MONTHS</p>
                      </div>
                      <p className="small-title small-title--skill">50<span className="skill-set__ratio">%</span></p>
@@ -83,7 +83,7 @@ const Skills: any = () => {
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
-                       <h4 className="small-title small-title--skill">HTML/CSS</h4>
+                       <h4 className="small-title small-title--skill">NODE JS</h4>
                        <p className="skill-set__year">2YEARS</p>
                      </div>
                      <p className="small-title small-title--skill skill-set__high">90<span className="skill-set__ratio">%</span></p>
