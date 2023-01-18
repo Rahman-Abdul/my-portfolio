@@ -76,6 +76,19 @@ const Skills: any = () => {
                    <div className="skill-set__bar p50 js-scroll in"></div>
                  </div>
                </li>
+               <li className="skill-set__item">
+                 <div className="skill-set__icon"><Image src={html}  alt="Flinto for mac"/></div>
+                 <div className="skill-set__detail">
+                   <div className="skill-set__meta">
+                     <div className="skill-set__name">
+                       <h4 className="small-title small-title--skill">Angular</h4>
+                       <p className="skill-set__year">2MONTHS</p>
+                     </div>
+                     <p className="small-title small-title--skill">50<span className="skill-set__ratio">%</span></p>
+                   </div>
+                   <div className="skill-set__bar p50 js-scroll in"></div>
+                 </div>
+               </li>
              </ul>
              <ul className="skill-set__list">
                <li className="skill-set__item">
@@ -128,6 +141,32 @@ const Skills: any = () => {
                      <p className="small-title small-title--skill">70<span className="skill-set__ratio">%</span></p>
                    </div>
                    <div className="skill-set__bar p70 js-scroll in"></div>
+                 </div>
+               </li>
+               <li className="skill-set__item">
+                 <div className="skill-set__icon"><Image src={html} alt="Javascript"/></div>
+                 <div className="skill-set__detail">
+                   <div className="skill-set__meta">
+                     <div className="skill-set__name">
+                       <h4 className="small-title small-title--skill">NGRX</h4>
+                       <p className="skill-set__year">1YEARS</p>
+                     </div>
+                     <p className="small-title small-title--skill">60<span className="skill-set__ratio">%</span></p>
+                   </div>
+                   <div className="skill-set__bar p60 js-scroll in"></div>
+                 </div>
+               </li>
+               <li className="skill-set__item">
+                 <div className="skill-set__icon"><Image src={html} alt="Javascript"/></div>
+                 <div className="skill-set__detail">
+                   <div className="skill-set__meta">
+                     <div className="skill-set__name">
+                       <h4 className="small-title small-title--skill">NGRX</h4>
+                       <p className="skill-set__year">1YEARS</p>
+                     </div>
+                     <p className="small-title small-title--skill">60<span className="skill-set__ratio">%</span></p>
+                   </div>
+                   <div className="skill-set__bar p60 js-scroll in"></div>
                  </div>
                </li>
                <li className="skill-set__item">
