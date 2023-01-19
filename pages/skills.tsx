@@ -25,7 +25,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={javascript}  alt="Sketch"/></div>
+                 <div className="skill-set__icon"><Image src={javascript}  width={300} height={200} alt="Sketch"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
