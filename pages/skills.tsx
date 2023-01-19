@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import html from '../assets/html.png'
 import javascript from '../assets/javascript.png'
+import angular from '../assets/angular.png'
 
 // import { Container } from './styles';
 
@@ -38,7 +39,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={html}  alt="Abstract"/></div>
+                 <div className="skill-set__icon"><Image src={angular}  alt="Abstract"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
