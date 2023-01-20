@@ -387,3 +387,10 @@ div.desc {
   display: table;
   clear: both;
 }
+
+
+
+.skill-set__list {
+  width: 100% !important;
+  padding: 4px !important;
+}
