@@ -6,10 +6,17 @@ import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import twitter from '../assets/twitter.png'
 import instagram from '../assets/instagram.png'
+import useDownloader from "react-use-downloader";
 
 
 
 const Home: NextPage = () => {
+
+  const {download } =
+useDownloader();
+
+const fileUrl = "/File.pdf";
+const filename = "File.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -24,12 +31,14 @@ const Home: NextPage = () => {
             <h1 className='name'>ABDULRAHMAN AHMED RASHEED</h1>
             <h3 className='job-title'>SOFTWARE ENGINEER</h3>
           </div>
+          <button className='button-home' onClick={() => download(fileUrl, filename)}>DOWNLOAD RESUME</button>
           <div className='social-section'>
           <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'https://www.linkedin.com/in/abdulrahman-ahmed-538a05178/'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={instagram} alt="Picture of the author" width={36.03} height={36.03}/></a>
           </div>
+
         </div>
       </main>
     </div>
