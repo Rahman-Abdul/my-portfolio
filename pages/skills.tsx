@@ -3,6 +3,7 @@ import Image from 'next/image';
 import html from '../assets/html.png'
 import javascript from '../assets/javascript.png'
 import angular from '../assets/angular.png'
+import reacti from '../assets/reacti.png'
 
 // import { Container } from './styles';
 
@@ -26,7 +27,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={javascript}  width={300} height={200} alt="Sketch"/></div>
+                 <div className="skill-set__icon"><Image src={javascript} alt="Sketch"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -52,7 +53,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={html} alt="Photoshop"/></div>
+                 <div className="skill-set__icon"><Image src={reacti} alt="Photoshop"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
