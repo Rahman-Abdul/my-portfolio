@@ -6,7 +6,7 @@ import instagram from '../assets/instagram.png'
 
 
 interface Props {
-    
+
 }
 
 const Footer = (props: Props) => {
@@ -16,10 +16,12 @@ const Footer = (props: Props) => {
           <p className='sign'>abdul_rahman ahmed</p>
           </div>
             <div className='footer-social-section'>
-          <Image className='social-image foot' src={twitter} alt="Picture of the author" width={50.03} height={50.03}/>
-        <Image className='social-image foot' src={github} alt="Picture of the author" width={50.03} height={50.03}/>
-      <Image className='social-image foot' src={linkedin} alt="Picture of the author" width={50.03} height={50.03}/>
-      <Image className='social-image footnpm' src={instagram} alt="Picture of the author" width={50.03} height={50.03}/>
+            <div className='social-section'>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://www.linkedin.com/in/abdulrahman-ahmed-538a05178/'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={instagram} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          </div>
           </div>
           <div className='copy-section'>
         <h3 className='copy'>Copyright @2022</h3>
