@@ -5,7 +5,9 @@ import angular from '../assets/angular.png'
 
 
 const About: any = () => {
-  return(
+
+
+return(
 <main className=''>
 <div className='circle-parent circle'>
   <Image className='about-image' src={angular} alt="Picture of the website"/>
