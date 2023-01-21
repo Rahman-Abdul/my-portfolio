@@ -24,7 +24,7 @@ const Footer = (props: Props) => {
           </div>
           </div>
           <div className='copy-section'>
-        <h3 className='copy'>Copyright @2022</h3>
+        <h3 className='copy'>Copyright 2023 Ahmed Abdulrahman All Rights Reserved</h3>
         </div>
         </section>
     )
