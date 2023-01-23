@@ -5,7 +5,7 @@ const Contact: any = () => {
 
     return(
         <div>
-
+<h1> setting up contact NextPage</h1>
 </div>
     )
 
