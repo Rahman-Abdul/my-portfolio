@@ -59,7 +59,7 @@ const Works: any = () => {
     <a target="_blank" href="img_mountains.jpg">
     <Image src={html} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">Add a description of the image here</div>
+    <div className="desc">angular table</div>
   </div>
 </div>
 
