@@ -21,7 +21,7 @@ const Works: any = () => {
     <a target="_blank" href="img_forest.jpg">
     <Image src={html} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">angular material</div>
+    <div className="desc">Basade</div>
   </div>
 </div>
 
