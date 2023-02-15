@@ -45,5 +45,5 @@ const filename = "File.pdf";
 
   )
 }
-
+';'
 export default Home
