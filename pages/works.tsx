@@ -3,6 +3,10 @@ import Image from 'next/image';
 import html from '../assets/html.png';
 import angularDashboard from '../assets/angularDashboard.png'
 import doctor from '../assets/doctor.png'
+import table from '../assets/table.png'
+import portfolio from '../assets/portfolio.png'
+
+
 // import { Container } from './styles';
 
 const Works: any = () => {
@@ -23,25 +27,25 @@ const Works: any = () => {
     <a target="_blank" href="img_forest.jpg">
     <Image src={doctor} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">Doctor EHR Account</div>
+    <div className="desc"> Angular Doctor EHR Account</div>
   </div>
 </div>
 
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_lights.jpg">
-    <Image src={html} alt="Illustrator" width="600" height="400"/>
+    <Image src={table} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">angular material</div>
+    <div className="desc">Angular Material Table</div>
   </div>
 </div>
 
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_mountains.jpg">
-    <Image src={html} alt="Illustrator" width="600" height="400"/>
+    <Image src={portfolio} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">WordPress website</div>
+    <div className="desc">My Portfolio</div>
   </div>
 </div>
 
