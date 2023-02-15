@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import html from '../assets/html.png'
+import html from '../assets/html.png';
+import angularDashboard from '../assets/angularDashboard.png'
+import doctor from '../assets/doctor.png'
 // import { Container } from './styles';
 
 const Works: any = () => {
@@ -9,7 +11,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_5terre.jpg">
-    <Image src={html} alt="Illustrator" width="600" height="400"/>
+    <Image src={angularDashboard} alt="Illustrator" width="600" height="400"/>
     </a>
     <div className="desc">ANgular Data Table</div>
   </div>
@@ -19,9 +21,9 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_forest.jpg">
-    <Image src={html} alt="Illustrator" width="600" height="400"/>
+    <Image src={doctor} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">Basade</div>
+    <div className="desc">Doctor EHR Account</div>
   </div>
 </div>
 

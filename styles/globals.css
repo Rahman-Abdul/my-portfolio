@@ -48,7 +48,7 @@ a {
   width: 500px;
   height: 40px;
   margin:auto;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #00FFFF;
   border-radius: 8px 8px;
   margin-top: 20px;
 }
@@ -343,11 +343,12 @@ skill-set__ratio {
 
 
 div.gallery {
-  border: 1px solid #ccc;
+  border: 5px solid #00FFFF;
+  border-radius: 10px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 5px solid #FFFFFF;
 }
 
 div.gallery img {
@@ -356,6 +357,7 @@ div.gallery img {
 }
 
 div.desc {
+  color: #00FFFF;
   padding: 15px;
   text-align: center;
 }
@@ -366,8 +368,10 @@ div.desc {
 
 .responsive {
   padding: 0 6px;
+  border-radius: 10px !important;
   float: left;
   width: 24.99999%;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 700px) {
