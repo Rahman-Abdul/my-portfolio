@@ -30,7 +30,7 @@ const Works: any = () => {
     <a target="_blank" href="img_forest.jpg">
     <Image src={doctor} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc"> Angular Doctor EHR Account</div>
+    <div className="desc"> AngularAccount</div>
   </div>
 </div>
 
