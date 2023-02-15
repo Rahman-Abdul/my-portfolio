@@ -68,7 +68,7 @@ const Works: any = () => {
     <a target="_blank" href="img_mountains.jpg">
     <Image src={texas} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">angular table</div>
+    <div className="desc">Texas Health Website</div>
   </div>
 </div>
 
@@ -77,7 +77,7 @@ const Works: any = () => {
     <a target="_blank" href="img_mountains.jpg">
     <Image src={hp} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">interger to roman calculator</div>
+    <div className="desc">Hp Job website</div>
   </div>
 </div>
 
