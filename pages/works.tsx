@@ -5,6 +5,9 @@ import angularDashboard from '../assets/angularDashboard.png'
 import doctor from '../assets/doctor.png'
 import table from '../assets/table.png'
 import portfolio from '../assets/portfolio.png'
+import symphony from '../assets/symphony.png'
+import texas from '../assets/texas.png'
+import hp from '../assets/hp.png'
 
 
 // import { Container } from './styles';
@@ -17,7 +20,7 @@ const Works: any = () => {
     <a target="_blank" href="img_5terre.jpg">
     <Image src={angularDashboard} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">ANgular Data Table</div>
+    <div className="desc">Angular Data Table</div>
   </div>
 </div>
 
@@ -53,9 +56,9 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_mountains.jpg">
-    <Image src={html} alt="Illustrator" width="600" height="400"/>
+    <Image src={symphony} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">Home Depot</div>
+    <div className="desc">Symphony Talent Website</div>
   </div>
 </div>
 
@@ -63,7 +66,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_mountains.jpg">
-    <Image src={html} alt="Illustrator" width="600" height="400"/>
+    <Image src={texas} alt="Illustrator" width="600" height="400"/>
     </a>
     <div className="desc">angular table</div>
   </div>
@@ -72,7 +75,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_mountains.jpg">
-    <Image src={html} alt="Illustrator" width="600" height="400"/>
+    <Image src={hp} alt="Illustrator" width="600" height="400"/>
     </a>
     <div className="desc">interger to roman calculator</div>
   </div>
