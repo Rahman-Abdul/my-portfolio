@@ -416,3 +416,29 @@ div.desc {
   cursor: pointer;
   border-radius: 3px;
 }
+
+/* form */
+.Formmain{
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ForminputGroup {
+  height: 50%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.ForminputLabel {
+  text-align: left;
+}
+
+.ForminputField {
+  height: 30px;
+}
