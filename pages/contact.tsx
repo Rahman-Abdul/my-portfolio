@@ -48,7 +48,7 @@ const Contact: any = () => {
           < label htmlFor='message'>Message</label>
           < input type='text' onChange={(e)=>{setName(e.target.value)}} name='message' className="ForminputField" />
         </div>
-        < input type='submit' onClick={(e)=>{handleSubmit(e)}}/>
+        < input className='button-contact' type='submit' onClick={(e)=>{handleSubmit(e)}}/>
         </form >
       </div>
     )
