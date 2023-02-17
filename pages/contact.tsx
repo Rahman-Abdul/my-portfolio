@@ -1,5 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
+import styles from '../styles/Home.module.css'
+import github from '../assets/github.png'
+import linkedin from '../assets/linkedin.png'
+import twitter from '../assets/twitter.png'
+import instagram from '../assets/instagram.png'
 
 const Contact: any = () => {
     const [name, setName] = useState('')
@@ -37,18 +42,18 @@ const Contact: any = () => {
         <div className="Formcontainer">
         < form className="Formmain" >
         <div className="ForminputGroup" >
-          < label htmlFor='name'>Name</label>
+          < label className='Formname' htmlFor='name'>Name</label>
           < input type='text' onChange={(e)=>{setName(e.target.value)}} name='name' className="inputField" />
         </div>
         < div className="ForminputGroup" >
-          < label htmlFor='email'>Email</label>
-          < input type='email' onChange={(e)=>{setName(e.target.value)}} name='email' className="ForminputField" />
+          < label className='Formname' htmlFor='email'>Email</label>
+          < input type='email' onChange={(e)=>{setName(e.target.value)}} name='email' className="inputField" />
         </div>
         < div className="ForminputGroup" >
-          < label htmlFor='message'>Message</label>
+          < label className='Formname' htmlFor='message'>Message</label>
           < input type='text' onChange={(e)=>{setName(e.target.value)}} name='message' className="ForminputField" />
         </div>
-        < input className='button-contact' type='submit' onClick={(e)=>{handleSubmit(e)}}/>
+        < input  className='button-contact' type='submit' onClick={(e)=>{handleSubmit(e)}}/>
         </form >
       </div>
     )
