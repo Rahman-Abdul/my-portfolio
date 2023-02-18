@@ -67,7 +67,7 @@ const Works: any = () => {
     <a target="_blank" href="img_mountains.jpg">
     <Image src={doctor} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">Texas Health Website</div>
+    <div className="desc">Texas Website</div>
   </div>
 </div>
 
