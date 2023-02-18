@@ -3,7 +3,6 @@ import Image from 'next/image';
 import html from '../assets/html.png';
 import angularDashboard from '../assets/angularDashboard.png';
 import doctor from '../assets/doctor.png';
-import table from '../assets/table.png';
 //import portfolio from '../assets/portfolio.png';
 //import symphony from '../assets/symphony.png';
 //import texas from '../assets/texas.png';
