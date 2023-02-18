@@ -37,7 +37,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_lights.jpg">
-    <Image src={table} alt="Illustrator" width="600" height="400"/>
+    <Image src={doctor} alt="Illustrator" width="600" height="400"/>
     </a>
     <div className="desc">Angular Material Table</div>
   </div>
