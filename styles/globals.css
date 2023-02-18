@@ -427,6 +427,11 @@ div.desc {
   align-items: center;
 }
 
+.Formcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
 .ForminputGroup {
   height: 80%;
   width: 50%;
@@ -448,4 +453,8 @@ div.desc {
 }
 .Formname{
   color: #00FFFF;
+}
+.hi{
+  color: #E5E5E5;
+  display: flex;
 }

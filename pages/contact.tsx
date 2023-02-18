@@ -1,10 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import styles from '../styles/Home.module.css'
-import github from '../assets/github.png'
-import linkedin from '../assets/linkedin.png'
-import twitter from '../assets/twitter.png'
-import instagram from '../assets/instagram.png'
+import ContactDetails from '../contents/ContactDetails';
 
 const Contact: any = () => {
     const [name, setName] = useState('')
@@ -39,7 +35,12 @@ const Contact: any = () => {
         })
       }
     return(
-        <div className="Formcontainer">
+
+        <div className="Formcontainr">
+        <div>
+          <ContactDetails/>
+        </div>
+        <div>
         < form className="Formmain" >
         <div className="ForminputGroup" >
           < label className='Formname' htmlFor='name'>Name</label>
@@ -55,6 +56,7 @@ const Contact: any = () => {
         </div>
         < input  className='button-contact' type='submit' onClick={(e)=>{handleSubmit(e)}}/>
         </form >
+      </div>
       </div>
     )
 
