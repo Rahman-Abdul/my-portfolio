@@ -36,7 +36,7 @@ const Contact: any = () => {
       }
     return(
 
-        <div className="Formcontainr">
+        <div className="Formcontain">
         <div>
           <Contactdetails/>
         </div>

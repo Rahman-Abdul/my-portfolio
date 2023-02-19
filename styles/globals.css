@@ -30,13 +30,12 @@ a {
 .social-image{
   border: 5px solid #FFFFFF !important;
   border-radius: 50%;
-
 }
 .social-section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 203px;
+  width: 250px;
 }
 .container-1{
   background-color: #0B0058;
@@ -454,7 +453,26 @@ div.desc {
 .Formname{
   color: #00FFFF;
 }
-.hi{
+.contact{
   color: #E5E5E5;
   display: flex;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
+.details{
+  font-size: 18px;
+  position:relative;
+  bottom: 10px;
+  left: 5px;
+}
+.social{
+  margin-top: 10px;
+}
+.social :hover{
+  color: #00FFFF;
+}
+
+
