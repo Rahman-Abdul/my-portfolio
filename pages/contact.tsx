@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import Contactdetails from '../contents/ContactDetails';
+import Contactdetails from '../contents/Contactdetails';
 
 const Contact: any = () => {
     const [name, setName] = useState('')
