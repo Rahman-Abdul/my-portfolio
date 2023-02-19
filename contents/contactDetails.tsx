@@ -7,7 +7,7 @@ import instagram from '../assets/instagram.png'
 
 type Props = {}
 
-export default function ContactDetails({}: Props) {
+export default function Contactdetails({}: Props) {
   return (
     <div className='hi'>
       <ul>

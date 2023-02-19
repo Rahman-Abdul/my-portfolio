@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import ContactDetails from '../contents/ContactDetails';
+import Contactdetails from '../contents/ContactDetails';
 
 const Contact: any = () => {
     const [name, setName] = useState('')
@@ -38,7 +38,7 @@ const Contact: any = () => {
 
         <div className="Formcontainr">
         <div>
-          <ContactDetails/>
+          <Contactdetails/>
         </div>
         <div>
         < form className="Formmain" >
