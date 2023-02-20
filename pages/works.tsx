@@ -30,7 +30,7 @@ const Works: any = () => {
     <a target="_blank" href="img_forest.jpg">
     <Image src={doctor} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc"> AngularAccount</div>
+    <div className="desc">Patient Record</div>
   </div>
 </div>
 
@@ -80,7 +80,7 @@ const Works: any = () => {
     <div className="desc">Hp Job website</div>
   </div>
 </div>
-
+ cdfd
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_mountains.jpg">
