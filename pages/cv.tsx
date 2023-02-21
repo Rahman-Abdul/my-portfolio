@@ -13,7 +13,7 @@ const Cv = () => {
 
   return (
     <div>
-      <Document file="ahmed.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+      <Document file="https://www.newline.co/fullstack-react/assets/media/sGEMe/MNzue/30-days-of-react-ebook-fullstackio.pdf" onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={pageNumber} />
       </Document>
       <p>
