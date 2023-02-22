@@ -30,7 +30,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" rel="noreferrer"   href="https://github.com/Rahman-Abdul/Players-Record-Table">
-    <Image src="/doctor.png" alt="Illustrator" width={600} height={400}/>
+    <Image src="/table.png" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">Angular Material Table</div>
   </div>
@@ -39,7 +39,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_mountains.jpg">
-    <Image src="/doctor.png" alt="Illustrator" width={600} height={400}/>
+    <Image src="/portfolio.png" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">My Portfolio</div>
   </div>
