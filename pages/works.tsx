@@ -79,7 +79,7 @@ const Works: any = () => {
     <a target="_blank" rel="noreferrer" href="https://splittesting.com/">
     <Image src="/splittesting.png" alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">Splittesting</div>
+    <div className="desc">Splittesting website</div>
   </div>
 </div>
 
