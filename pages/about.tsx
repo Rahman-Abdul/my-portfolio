@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import me from '../assets/mee.png';
-import { imageOptimizer } from 'next/dist/server/image-optimizer';
-import angular from '../assets/angular.png'
+import me from '../assets/me.png';
 
 
 
