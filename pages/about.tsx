@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import mee from '../assets/mee.jpg';
+import mee from '../assets/mee.jpeg';
 
 
 
