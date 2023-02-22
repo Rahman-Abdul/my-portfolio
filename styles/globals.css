@@ -17,7 +17,7 @@ a {
 }
 
 .layout{
-  background-image: url("../assets/home-background.jpg");
+  background-image: url("/home-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

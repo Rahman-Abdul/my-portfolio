@@ -1,22 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import html from '../assets/html.png'
-import mjs from '../assets/mjs.png'
-import angular from '../assets/angular.png'
-import reacti from '../assets/reacti.png'
-import nodejs from '../assets/nodejs.png'
-import redux from '../assets/redux.png'
-import ngrx from '../assets/ngrx.png'
-import wordpress from '../assets/wordpress.png'
-import rxjs from '../assets/rxjs.png'
-import typescript from '../assets/typescript.png'
-import next from '../assets/next.png'
-import aws from '../assets/aws.png'
-import sass from '../assets/sass.png'
-import mysql from '../assets/mysql.png'
-import postgres from '../assets/postgres.png'
-import java from '../assets/java.png'
-import mongodb from '../assets/mongodb.png'
+
 
 // import { Container } from './styles';
 
@@ -27,7 +11,7 @@ const Skills: any = () => {
            <div className="content content--mlarge skill-set__flex">
              <ul className="skill-set__list">
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={html} alt="Illustrator"/></div>
+                 <div className="skill-set__icon"><Image src="/html.png" alt="Illustrator"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -40,7 +24,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={mjs} alt="Sketch"/></div>
+                 <div className="skill-set__icon"><Image src="/mjs.png" alt="Sketch"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -53,7 +37,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={typescript}  alt="Abstract"/></div>
+                 <div className="skill-set__icon"><Image src="/typescript.png"  alt="Abstract"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -66,7 +50,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={java} alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/java.png" alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -80,7 +64,7 @@ const Skills: any = () => {
                </li>
 
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={angular} alt="Photoshop"/></div>
+                 <div className="skill-set__icon"><Image src="/angular.png" alt="Photoshop"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -93,7 +77,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={reacti}  alt="Flinto for mac"/></div>
+                 <div className="skill-set__icon"><Image src="/reacti.png"  alt="Flinto for mac"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -106,7 +90,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={next}  alt="Wordpress"/></div>
+                 <div className="skill-set__icon"><Image src="/next.png"  alt="Wordpress"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -119,7 +103,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={nodejs}  alt="Flinto for mac"/></div>
+                 <div className="skill-set__icon"><Image src="/nodejs.png"  alt="Flinto for mac"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -132,7 +116,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={ngrx}  alt="Flinto for mac"/></div>
+                 <div className="skill-set__icon"><Image src="/ngrx.png"  alt="Flinto for mac"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -149,7 +133,7 @@ const Skills: any = () => {
              </ul>
              <ul className="skill-set__list">
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={rxjs}  alt="RXJS"/></div>
+                 <div className="skill-set__icon"><Image src="/rxjs.png"  alt="RXJS"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -162,7 +146,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={redux} alt="Pug"/></div>
+                 <div className="skill-set__icon"><Image src="/redux.png" alt="Pug"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -176,7 +160,7 @@ const Skills: any = () => {
                </li>
 
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={aws} alt="Sass"/></div>
+                 <div className="skill-set__icon"><Image src="/aws.png" alt="Sass"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -189,7 +173,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={sass} alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/sass.png" alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -202,7 +186,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={postgres} alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/postgres.png" alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -215,7 +199,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={mysql} alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/mysql.png" alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -228,7 +212,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={mongodb} alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/mongodb.png" alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -241,7 +225,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src={wordpress} alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/wordpress.png" alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">

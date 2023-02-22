@@ -2,12 +2,6 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import github from '../assets/github.png'
-import linkedin from '../assets/linkedin.png'
-import twitter from '../assets/twitter.png'
-import instagram from '../assets/instagram.png'
-import mail from '../assets/mail.png'
-import phone from '../assets/phone.png'
 import useDownloader from "react-use-downloader";
 import Cv from '../contents/cv'
 
@@ -37,12 +31,12 @@ const filename = "ahmed.pdf";
           </div>
           <button className='button-home' onClick={() => download(fileUrl, filename)}>DOWNLOAD RESUME</button>
           <div className='social-section'>
-          <a href={'tel:+2347036761504'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={phone} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'mailto:abdulrahmanahmedrasheed@gmail.com'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={mail} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'https://www.linkedin.com/in/abdulrahman-ahmed-538a05178/'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'https://twitter.com/Heircoders?t=RYkLOYZCl8qojhhzmjHjmw&s=09'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'https://instagram.com/heir_coders?igshid=ZDdkNTZiNTM='} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={instagram} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'tel:+2347036761504'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src="/phone.png" alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'mailto:abdulrahmanahmedrasheed@gmail.com'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src="/mail.png" alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://www.linkedin.com/in/abdulrahman-ahmed-538a05178/'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src="/linkedin.png" alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src="/github.png" alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://twitter.com/Heircoders?t=RYkLOYZCl8qojhhzmjHjmw&s=09'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src="/twitter.png" alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://instagram.com/heir_coders?igshid=ZDdkNTZiNTM='} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src="/instagram.png" alt="Picture of the author" width={36.03} height={36.03}/></a>
           </div>
 
         </div>
