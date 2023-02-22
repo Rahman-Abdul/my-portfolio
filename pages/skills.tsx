@@ -11,7 +11,7 @@ const Skills: any = () => {
            <div className="content content--mlarge skill-set__flex">
              <ul className="skill-set__list">
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/html.png" alt="Illustrator"/></div>
+                 <div className="skill-set__icon"><Image src="/html.png" width={200} height={200} alt="Illustrator"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -24,7 +24,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/mjs.png" alt="Sketch"/></div>
+                 <div className="skill-set__icon"><Image src="/mjs.png" width={200} height={200} alt="Sketch"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -37,7 +37,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/typescript.png"  alt="Abstract"/></div>
+                 <div className="skill-set__icon"><Image src="/typescript.png" width={200} height={200}  alt="Abstract"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -50,7 +50,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/java.png" alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/java.png" width={200} height={200} alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -64,7 +64,7 @@ const Skills: any = () => {
                </li>
 
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/angular.png" alt="Photoshop"/></div>
+                 <div className="skill-set__icon"><Image src="/angular.png" width={200} height={200} alt="Photoshop"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -77,7 +77,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/reacti.png"  alt="Flinto for mac"/></div>
+                 <div className="skill-set__icon"><Image src="/reacti.png" width={200} height={200}  alt="Flinto for mac"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -90,7 +90,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/next.png"  alt="Wordpress"/></div>
+                 <div className="skill-set__icon"><Image src="/next.png" width={200} height={200} alt="Wordpress"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -103,7 +103,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/nodejs.png"  alt="Flinto for mac"/></div>
+                 <div className="skill-set__icon"><Image src="/nodejs.png" width={200} height={200} alt="Flinto for mac"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -116,7 +116,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/ngrx.png"  alt="Flinto for mac"/></div>
+                 <div className="skill-set__icon"><Image src="/ngrx.png" width={200} height={200} alt="Flinto for mac"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -133,7 +133,7 @@ const Skills: any = () => {
              </ul>
              <ul className="skill-set__list">
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/rxjs.png"  alt="RXJS"/></div>
+                 <div className="skill-set__icon"><Image src="/rxjs.png" width={200} height={200} alt="RXJS"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -146,7 +146,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/redux.png" alt="Pug"/></div>
+                 <div className="skill-set__icon"><Image src="/redux.png" width={200} height={200} alt="Pug"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -160,7 +160,7 @@ const Skills: any = () => {
                </li>
 
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/aws.png" alt="Sass"/></div>
+                 <div className="skill-set__icon"><Image src="/aws.png" width={200} height={200} alt="Sass"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -173,7 +173,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/sass.png" alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/sass.png" width={200} height={200} alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -186,7 +186,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/postgres.png" alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/postgres.png" width={200} height={200} alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -199,7 +199,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/mysql.png" alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/mysql.png" width={200} height={200} alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -212,7 +212,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/mongodb.png" alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/mongodb.png" width={200} height={200} alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">
@@ -225,7 +225,7 @@ const Skills: any = () => {
                  </div>
                </li>
                <li className="skill-set__item">
-                 <div className="skill-set__icon"><Image src="/wordpress.png" alt="Javascript"/></div>
+                 <div className="skill-set__icon"><Image src="/wordpress.png" width={200} height={200} alt="Javascript"/></div>
                  <div className="skill-set__detail">
                    <div className="skill-set__meta">
                      <div className="skill-set__name">

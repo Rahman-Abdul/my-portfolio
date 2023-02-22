@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import useDownloader from "react-use-downloader";
-import Cv from '../contents/cv'
+
 
 
 
@@ -12,8 +12,8 @@ const Home: NextPage = () => {
   const {download } =
 useDownloader();
 
-const fileUrl = "ahmed.pdf";
-const filename = "ahmed.pdf";
+const fileUrl = "/ahmed.pdf";
+const filename = "/ahmed.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -23,7 +23,6 @@ const filename = "ahmed.pdf";
       </Head>
 
       <main className={styles.main}>
-<Cv/>
         <div>
           <div className='name-section'>
             <h1 className='name'>ABDULRAHMAN AHMED RASHEED</h1>
