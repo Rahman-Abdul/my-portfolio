@@ -12,13 +12,14 @@ import useDownloader from "react-use-downloader";
 import Cv from '../contents/cv'
 
 
+
 const Home: NextPage = () => {
 
   const {download } =
 useDownloader();
 
-const fileUrl = "/File.pdf";
-const filename = "File.pdf";
+const fileUrl = "ahmed.pdf";
+const filename = "ahmed.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -38,10 +39,10 @@ const filename = "File.pdf";
           <div className='social-section'>
           <a href={'tel:+2347036761504'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={phone} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'mailto:abdulrahmanahmedrasheed@gmail.com'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={mail} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/></a>
           <a href={'https://www.linkedin.com/in/abdulrahman-ahmed-538a05178/'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={linkedin} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
-          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={instagram} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://github.com/Rahman-Abdul'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={github} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://twitter.com/Heircoders?t=RYkLOYZCl8qojhhzmjHjmw&s=09'} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={twitter} alt="Picture of the author" width={36.03} height={36.03}/></a>
+          <a href={'https://instagram.com/heir_coders?igshid=ZDdkNTZiNTM='} target={"_blank"} rel={"noreferrer"}><Image className='social-image' src={instagram} alt="Picture of the author" width={36.03} height={36.03}/></a>
           </div>
 
         </div>

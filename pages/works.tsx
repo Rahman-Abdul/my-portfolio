@@ -8,6 +8,7 @@ import symphony from '../assets/symphony.png';
 import texas from '../assets/texas.png';
 import hp from '../assets/hp.png';
 import table from '../assets/table.png';
+import splittesting from '../assets/splittesting.png'
 
 
 // import { Container } from './styles';
@@ -55,7 +56,7 @@ const Works: any = () => {
 
 <div className="responsive">
   <div className="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank" rel="noreferrer" href="https://www.symphonytalent.com/">
     <Image src={symphony} alt="Illustrator" width="600" height="400"/>
     </a>
     <div className="desc">Symphony Talent Website</div>
@@ -65,7 +66,7 @@ const Works: any = () => {
 
 <div className="responsive">
   <div className="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank" rel="noreferrer" href="https://jobs.texashealth.org">
     <Image src={texas} alt="Illustrator" width="600" height="400"/>
     </a>
     <div className="desc">Texas Website</div>
@@ -74,7 +75,7 @@ const Works: any = () => {
 
 <div className="responsive">
   <div className="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank"   rel="noreferrer" href="https://jobs.hp.com/">
     <Image src={hp} alt="Illustrator" width="600" height="400"/>
     </a>
     <div className="desc">Hp Job website</div>
@@ -83,10 +84,10 @@ const Works: any = () => {
  cdfd
 <div className="responsive">
   <div className="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-    <Image src={html} alt="Illustrator" width="600" height="400"/>
+    <a target="_blank" rel="noreferrer" href="https://splittesting.com/">
+    <Image src={splittesting} alt="Illustrator" width="600" height="400"/>
     </a>
-    <div className="desc">Doctor table</div>
+    <div className="desc">Splittesting</div>
   </div>
 </div>
 
