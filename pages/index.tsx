@@ -9,7 +9,7 @@ import instagram from '../assets/instagram.png'
 import mail from '../assets/mail.png'
 import phone from '../assets/phone.png'
 import useDownloader from "react-use-downloader";
-
+import Cv from '../contents/cv'
 
 
 const Home: NextPage = () => {
@@ -28,6 +28,7 @@ const filename = "File.pdf";
       </Head>
 
       <main className={styles.main}>
+<Cv/>
         <div>
           <div className='name-section'>
             <h1 className='name'>ABDULRAHMAN AHMED RASHEED</h1>
