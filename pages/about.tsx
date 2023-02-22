@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import rahman from '../assets/rahman.jpeg';
+import rahman from '../assets/rahman.jpg';
 
 
 
