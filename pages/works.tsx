@@ -30,7 +30,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" rel="noreferrer"   href="https://github.com/Rahman-Abdul/Players-Record-Table">
-    <Image src="/table.png" alt="Illustrator" width={600} height={400}/>
+    <Image src="/TABLE.JPG" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">Angular Material Table</div>
   </div>
@@ -39,7 +39,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" href="img_mountains.jpg">
-    <Image src="/portfolio.png" alt="Illustrator" width={600} height={400}/>
+    <Image src="/PORTFOLIO.JPG" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">My Portfolio</div>
   </div>
@@ -59,7 +59,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" rel="noreferrer" href="https://jobs.texashealth.org">
-    <Image src="/texas.png" alt="Illustrator" width={600} height={400}/>
+    <Image src="/TEXAS.JPG" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">Texas Website</div>
   </div>
@@ -68,7 +68,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank"   rel="noreferrer" href="https://jobs.hp.com/">
-    <Image src="/hp.png" alt="Illustrator" width={600} height={400}/>
+    <Image src="/HP.JPG" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">Hp Job website</div>
   </div>
@@ -77,7 +77,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" rel="noreferrer" href="https://splittesting.com/">
-    <Image src="/splittesting.png" alt="Illustrator" width={600} height={400}/>
+    <Image src="/split.JPG" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">Splittesting website</div>
   </div>
