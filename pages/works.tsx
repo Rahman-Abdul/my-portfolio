@@ -49,7 +49,7 @@ const Works: any = () => {
 <div className="responsive">
   <div className="gallery">
     <a target="_blank" rel="noreferrer" href="https://www.symphonytalent.com/">
-    <Image src="/symphony.png" alt="Illustrator" width={600} height={400}/>
+    <Image src="/symphony.JPG" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">Symphony Talent Website</div>
   </div>
