@@ -20,7 +20,7 @@ const Works: any = () => {
 
 <div className="responsive">
   <div className="gallery">
-    <a target="_blank" href="img_forest.jpg">
+    <a target="_blank" href="https://github.com/Rahman-Abdul/EHR">
     <Image src="/doctor.png" alt="Illustrator" width={600} height={400}/>
     </a>
     <div className="desc">Patient Record</div>
