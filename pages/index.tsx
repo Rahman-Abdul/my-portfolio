@@ -12,8 +12,8 @@ const Home: NextPage = () => {
   const {download } =
 useDownloader();
 
-const fileUrl = "/Ahmed-Resume.pdf";
-const filename = "/Ahmed-Resume.pdf";
+const fileUrl = "/Ahmed-Rasheed.pdf";
+const filename = "/Ahmed-Rasheed.pdf";
   return (
     <div className={styles.container}>
       <Head>
