@@ -177,6 +177,14 @@ a.btn-1 {
   }
 }
 
+@media only screen and (min-width: 700px) {
+  .about-p{
+    color: #00FFFF!important;
+    font-size: 43px;
+    line-height: 1.8;
+    margin: 10px;
+  }
+}
 
 .circle-parent{
   width: 20em;
